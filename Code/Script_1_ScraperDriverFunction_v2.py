@@ -51,8 +51,8 @@ import Module_5_Scraper_Automation as m5
 
 
 ### TARGET OUTPUT DIR
-target_output_dir = r'/home/ccirelli2/Desktop/Repositories/SCA_Web_scaper-master/Output'
-logging_output_dir = r'/home/ccirelli2/Desktop/Repositories/SCA_Web_scaper-master/logging'
+target_output_dir = r'/home/ccirelli2/Desktop/Repositories/SCA_Web_Scraper_v_hm_server/Output'
+logging_output_dir = r'/home/ccirelli2/Desktop/Repositories/SCA_Web_Scraper_v_hm_server/logging'
 
 
 ### SQL INSTANTIATIONS_________________________________________________________
@@ -73,7 +73,7 @@ def SCA_data_scraper(Url, add_pages, Run_type, report_output_type, password):
     
     '''
     INPUTS
-    Url:    Stanford Law Web Page - Target of scraper                
+    Url:            Stanford Law Web Page - Target of scraper                
     Run_type:       Two options, Reset or Start_from_last_lage
     Url:            The web page from which we are scraping data
     add_pages:      Using the 'Start_from_last_page selection, pages_2_add is an additional

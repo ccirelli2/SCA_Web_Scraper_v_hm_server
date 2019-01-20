@@ -152,7 +152,7 @@ def driver_function_post_run_scraper_report(mydb, Beginning_page, End_page, repo
     '''
     
     # Define Target Dir 
-    target_output_dir = '/home/ccirelli2/Desktop/Repositories/SCA_Web_scaper-master/Output' 
+    target_output_dir = '/home/ccirelli2/Desktop/Repositories/SCA_Web_Scraper_v_hm_server/Output' 
 
 
     # Print Results to Standard Output
